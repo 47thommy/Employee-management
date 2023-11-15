@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css"> 
+    <style>
+        /* Optional custom styles */
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4 mb-4">Add Employee</h2>
+        
+        <form action="AddEmployeeServlet" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="designation" class="form-label">Designation:</label>
+                <input type="text" class="form-control" id="designation" name="designation" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="salary" class="form-label">Salary:</label>
+                <input type="number" class="form-control" id="salary" name="salary" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add Employee</button>
+        </form>
+
+        <!-- Link to view employees -->
+        <p class="mt-3"><a href="ViewEmployeesServlet" class="btn btn-secondary">View Employee List</a></p>
+    </div>
+
+    
+</body>
+</html>
