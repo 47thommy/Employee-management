@@ -1,8 +1,9 @@
+# Enterprise Application Development Projects
 
-Enterprise Application Development Projects
-Overview
-This repository contains a collection of projects completed as part of the course "Enterprise Application Development". The projects cover various aspects of enterprise application development, providing hands-on experience in designing and implementing robust solutions.
+Welcome to the repository for projects completed as part of the "Enterprise Application Development" course. This collection encompasses a range of projects, offering a hands-on experience in designing and implementing robust solutions for enterprise application development.
 
-ID and Section Information
-Course ID: UGR/1972/13
-Section: 1
+## Course Information
+- **Name:** Thomas Wondwosen
+- **ID:** UGR/1972/13
+- **Section:** 1
+
