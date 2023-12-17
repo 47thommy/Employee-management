@@ -1,0 +1,35 @@
+#login
+{
+    text-align: center;
+    color: brown;
+
+}
+#body
+{
+    background: aquamarine;
+}
+#form_div
+{
+    text-align: center;
+}
+#submit_button{
+    color: blueviolet;
+    background-color: aqua
+}
+#register_form_div
+{
+    text-align: center
+}
+#state_jsp
+{
+	text-align: center
+}
+#state_body
+{
+	background:aquamarine
+}
+#anchortag
+{
+	text-align: center;
+	margin:0px auto;
+}
